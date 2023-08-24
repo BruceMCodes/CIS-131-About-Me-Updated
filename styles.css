@@ -1,0 +1,109 @@
+/*
+    Name: Bruce Marshall
+    Class: CIS-131-102
+    Date: 8/23/2023
+*/
+body {
+    background-color: rgb(100, 212, 156);
+    text-align: center;
+    font-size: 1.5rem;
+}
+header {
+    display: block;
+    background-color: rgb(74 153 101);
+    padding: 30px;
+    background-image: url(Forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 20px;
+    font-size: 3rem;
+}
+nav {
+    display: inline-block;
+    background-color: rgba(100, 212, 156, 0.75);
+    padding: 25px;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgba(32, 136, 79, 0.75);
+    color: black;
+}
+a:hover {
+    background-color: rgb(20, 85, 49);
+    color:antiquewhite;
+    box-shadow: 10px 10px 10px black;
+    transition: 0.5s;
+}
+header ul {
+    padding: 15px;
+    margin: 0px;
+}
+header ul li {
+    list-style-type: none;
+
+}
+header li {
+    display: inline;
+}
+article {
+    display: block;
+    background-color: rgb(74 153 101);
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url(Forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#fFContent {
+    text-align: left;
+    background-color: rgba(100, 212, 156, 0.842);
+    padding: 20px;
+}
+article p {
+    padding: 20px;
+}
+#hContent {
+    background-color: rgba(100, 212, 156, 0.842);
+    padding: 20px;
+}
+.pageTitle {
+    font-size: 2rem;
+}
+form {
+    text-align: left;
+}
+form:hover {
+    background-color: rgba(100, 212, 156, 0.932);
+}
+label {
+    padding: 15px;
+    display: block;
+}
+img {
+    width: 200px;
+    margin-left: 15px;
+    float: right;
+}
+img:hover {
+    width: 350px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgba(32, 136, 79);
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.goalDiv {
+    background-color: rgba(100, 212, 156, 0.842);
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
